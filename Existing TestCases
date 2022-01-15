@@ -1,0 +1,11 @@
+In the problem "153. Find Minimum in Rotated Sorted Array"
+It is written that: "[4,5,6,7,0,1,2] if it was rotated 4 times"
+It should be corrected to 3 times |
+[0,1,2,4,5,6,7]                   |
+[1,2,4,5,6,7,0] #1st rotaion      |
+[2,4,5,6,7,0,1] #2nd rotation     |   
+[4,5,6,7,0,1,2] #3rd rotation-----
+[5,6,7,0,1,2,4]
+[6,7,0,1,2,4,5]
+[7,0,1,2,4,5,6]
+[0,1,2,4,5,6,7]
